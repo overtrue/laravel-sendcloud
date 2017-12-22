@@ -25,8 +25,8 @@ $ composer require overtrue/laravel-sendcloud -vvv
 
 ```php
 $result = SendCloud::post('/mail/send', [
-                'from' => 'anzhengchao@b7PA32qamzt4cDKDJzmUzrxCESzdCu5R.sendcloud.org',
-                'to' => '44294631@qq.com',
+                'from' => 'demo@DKDJzmUzrxCESzdCu5R.sendcloud.org',
+                'to' => 'demo@easywechat.com',
                 'subject' => '来自 SendCloud 的第一封邮件！',
                 'html' => '你太棒了！你已成功的 从SendCloud 发送了一封测试邮件！',
             ]);
