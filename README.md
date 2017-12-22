@@ -1,4 +1,4 @@
-<h1 align="center">laravel SendCloud</h1>
+<h1 align="center">Laravel SendCloud</h1>
 
 <p align="center"> SendCloud Mail SDK for Laravel.</p>
 
