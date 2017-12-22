@@ -1,0 +1,30 @@
+{
+    "name": "overtrue/laravel-sendcloud",
+    "description": "SendCloud SDK for Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "overtrue",
+            "email": "anzhengchao@gmail.com"
+        }
+    ],
+    "require": {
+        "overtrue/sendcloud": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Overtrue\\LaravelSendCloud\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Overtrue\\LaravelSendCloud\\SendCloudServiceProvider"
+            ],
+            "aliases": {
+                "SendCloud": "Overtrue\\LaravelSendCloud\\SendCloud"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
