@@ -1,6 +1,6 @@
-# laravel-sendcloud
+<h1 align="center">laravel-sendcloud</h1>
 
-[SendCloud](https://www.sendcloud.net) Mail SDK for Laravel.
+<p align="center">[SendCloud](https://www.sendcloud.net) Mail SDK for Laravel.</p>
 
 ## Installing
 
