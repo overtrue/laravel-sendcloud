@@ -10,7 +10,7 @@ $ composer require overtrue/laravel-sendcloud -vvv
 
 ## Usage
 
-1. config your apiUser and apiKey into `config/servies.php`: 
+1. config your apiUser and apiKey into `config/services.php`: 
 
 ```php
     //...
