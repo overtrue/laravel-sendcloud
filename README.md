@@ -2,6 +2,8 @@
 
 <p align="center"> SendCloud Mail SDK for Laravel.</p>
 
+[![Sponsor me](https://raw.githubusercontent.com/overtrue/overtrue/master/sponsor-me-button-s.svg)](https://github.com/sponsors/overtrue)
+
 ## Installing
 
 ```shell
