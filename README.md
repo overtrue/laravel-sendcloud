@@ -1,6 +1,11 @@
-<h1 align="center">Laravel SendCloud</h1>
+Laravel SendCloud
 
-<p align="center"> SendCloud Mail SDK for Laravel.</p>
+SendCloud Mail SDK for Laravel.
+
+![Laravel Octane Ready Status](https://img.shields.io/badge/Octance-ready-green?style=flat-square)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/overtrue/laravel-sendcloud?style=flat-square)
+![GitHub License](https://img.shields.io/github/license/overtrue/laravel-sendcloud?style=flat-square)
+![Packagist Downloads](https://img.shields.io/packagist/dt/overtrue/laravel-sendcloud?style=flat-square)
 
 [![Sponsor me](https://github.com/overtrue/overtrue/blob/master/sponsor-me-button-s.svg?raw=true)](https://github.com/sponsors/overtrue)
 

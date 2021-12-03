@@ -32,7 +32,7 @@ class SendCloudServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(SendCloud::class, function ($app) {
+        $this->app->bind(SendCloud::class, function ($app) {
             $config = config('services.sendcloud', []);
 
             if (empty($config['api_user']) || empty($config['api_key'])) {
