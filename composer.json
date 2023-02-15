@@ -10,7 +10,7 @@
     ],
     "require": {
         "overtrue/sendcloud": "^1.0",
-        "laravel/framework": "^9.0"
+        "laravel/framework": "^9.|^10.0"
     },
     "autoload": {
         "psr-4": {
