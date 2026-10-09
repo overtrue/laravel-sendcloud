@@ -9,8 +9,9 @@
         }
     ],
     "require": {
-        "overtrue/sendcloud": "^1.0",
-        "laravel/framework": "^13.9.0"
+        "php": "^8.3",
+        "overtrue/sendcloud": "^2.0",
+        "laravel/framework": "^13.30"
     },
     "autoload": {
         "psr-4": {
@@ -26,5 +27,18 @@
                 "SendCloud": "Overtrue\\LaravelSendCloud\\SendCloud"
             }
         }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^11.0",
+        "phpunit/phpunit": "^12.5.8"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Overtrue\\LaravelSendCloud\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "lint": "find src tests -name \"*.php\" -print0 | xargs -0 -n1 php -l"
     }
 }
