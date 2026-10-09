@@ -11,7 +11,7 @@ SendCloud API SDK bindings for Laravel. This package does not register a Laravel
 ## Requirements
 
 - PHP 8.3 or newer (PHP 8.x)
-- Laravel 13.9 or newer (Laravel 13.x)
+- Laravel 13.30 or newer (Laravel 13.x)
 - SendCloud SDK 2.x
 
 See [UPGRADE.md](UPGRADE.md) when upgrading from 1.x.

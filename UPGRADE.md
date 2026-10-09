@@ -1,6 +1,8 @@
 # Upgrading to 2.0
 
-This is a major release: PHP versions below 8.3 and Laravel versions below 13.9 are no longer supported. Upgrade your application first, then require `overtrue/laravel-sendcloud:^2.0` and update dependencies with Composer.
+This is a major release: PHP versions below 8.3 and Laravel versions below 13.30 are no longer supported. Upgrade your application first, then require `overtrue/laravel-sendcloud:^2.0` and update dependencies with Composer.
+
+The Laravel 13.30 floor matches the lowest framework version admitted by Composer security advisories when this release was prepared. Keep Composer advisory blocking enabled and update to newer security releases as they become available.
 
 ## SendCloud SDK 2.x
 

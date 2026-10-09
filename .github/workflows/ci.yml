@@ -44,4 +44,3 @@ jobs:
         run: composer lint
       - name: Run tests
         run: composer test
-
