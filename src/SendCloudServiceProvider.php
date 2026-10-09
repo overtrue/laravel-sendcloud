@@ -33,7 +33,7 @@ class SendCloudServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(SendCloud::class, function ($app) {
-            $config = config('services.sendcloud', []);
+            $config = $app['config']->get('services.sendcloud', []);
 
             if (empty($config['api_user']) || empty($config['api_key'])) {
                 throw new \RuntimeException('No sendcloud configuration found.');
